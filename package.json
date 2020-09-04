@@ -13,7 +13,6 @@
     "parallelshell": "latest",
     "pug": "latest",
     "pug-cli": "latest",
-    "renamer": "latest",
     "rollup": "latest",
     "rollup-plugin-eslint": "latest",
     "rollup-plugin-html": "latest",
@@ -35,5 +34,8 @@
     "compile:critical": "stylus -compress -u nib src/stylus/critical.styl -o src/html/partials/critical.css",
     "compile:routes": "pug src/html/routes -H -o public/",
     "build:css": "stylus --compress -u nib src/stylus/style.styl -o public/style.css"
+  },
+  "dependencies": {
+    "rxjs": "latest"
   }
 }
