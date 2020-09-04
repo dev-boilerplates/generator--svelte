@@ -1,0 +1,16 @@
+script
+  include ./app.js
+
+//- HTML-----------------------------------------------------------
+h1 component whoop
+main
+  h1("on:click"!="{() => other = 'new'}")
+    | Hello { other }!
+    p Visit the 
+      a(href="https://svelte.dev/tutorial") Svelte tutorial 
+      | to learn how to build Svelte apps
+  Component
+
+//- ---------------------------------------------------------------
+style
+  include ./style.css
